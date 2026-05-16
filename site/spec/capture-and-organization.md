@@ -1,0 +1,98 @@
+# Capture, Organize, Archive
+
+Every Portent object moves through a simple lifecycle.
+
+The lifecycle is intentionally small. It is not meant to replace project management, task workflow, or a team's operational status model. It answers a more basic knowledge-base question: should this object still be treated as active knowledge?
+
+Portent defines three lifecycle states:
+
+1. **Captured**
+2. **Organized**
+3. **Archived**
+
+## Why The Lifecycle Matters
+
+A knowledge base is not useful because everything is stored. It is useful because the right things keep appearing in the right views.
+
+The lifecycle controls that visibility.
+
+Captured objects need attention. Organized objects are ready to be used. Archived objects remain part of memory, but should stop appearing in active views unless explicitly requested.
+
+## Captured
+
+A captured object has been recorded, but is not yet actionable.
+
+It can start as a thought, pasted link, rough meeting note, image, transcript, draft, task, or unprocessed document. At this stage, the important thing is not to lose it.
+
+Captured items can live in an inbox, daily note, scratchpad, import queue, or any other temporary surface.
+
+Captured objects may be missing:
+
+- a clear title
+- a type
+- a primary relationship
+- enough context to know why they matter
+
+The captured state is allowed to be messy. Its job is to protect speed.
+
+## The Organizing Move
+
+An object becomes organized when you can answer two questions:
+
+- What is this?
+- What will this be useful for?
+
+The first question assigns type. The second assigns relationships.
+
+In practice, organizing usually means:
+
+1. giving the object a clear title
+2. assigning a Portent type
+3. assigning a primary relationship such as `belongs_to`, when there is a clear main context
+4. assigning secondary relationships such as `related_to`, when they explain future use
+
+This is the moment where a raw capture turns into part of the graph.
+
+## Organized
+
+An organized object has enough structure to be retrieved later.
+
+It can leave the inbox because its future retrieval path is no longer accidental.
+
+Organized does not mean complete, polished, or final. A project can still be active. A note can still be expanded. A topic can still grow. The point is that the object now has enough semantic structure to participate in views, filters, navigation, and graph traversal.
+
+## Archived
+
+An archived object has completed its purpose or is no longer useful in active work.
+
+Archived objects should remain available for search, history, audit, and reference, but they should not appear in ordinary active views by default.
+
+Examples:
+
+- a completed project that no longer needs active attention
+- an event that should remain in history but not in current dashboards
+- a note that has been superseded by a better note
+- an operation that is no longer performed
+- a task that has already been handled elsewhere
+
+Archiving is different from deletion. Deletion says the object should not be part of memory. Archiving says the object should no longer compete for attention.
+
+## State Field
+
+Implementations can represent lifecycle state however they prefer. A Markdown implementation might use:
+
+```yaml
+---
+type: Event
+state: organized
+belongs_to: "[[Launch Portent v0.1]]"
+related_to:
+  - "[[Portent lifecycle]]"
+---
+```
+
+Tools may choose different labels or omit the field when an object is organized by default. The important behavior is the distinction:
+
+- captured objects need triage
+- organized objects appear in normal views
+- archived objects are hidden from active views unless requested
