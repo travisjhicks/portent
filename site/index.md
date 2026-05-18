@@ -5,7 +5,7 @@ titleTemplate: false
 
 hero:
   name: Portent
-  text: Opinionated defaults for knowledge bases.
+  text: An open spec for personal and work knowledge bases.
   tagline: "Three portable conventions for personal and organizational knowledge: types, relationships, and lifecycle."
   actions:
     - theme: brand
