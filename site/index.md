@@ -5,8 +5,8 @@ titleTemplate: false
 
 hero:
   name: Portent
-  text: An open spec for personal and work knowledge bases.
-  tagline: "Three portable conventions for personal and organizational knowledge: types, relationships, and lifecycle."
+  text: An open spec for work & personal knowledge bases
+  tagline: "An opinionated set of types & relationships, and lifecycle."
   actions:
     - theme: brand
       text: Read The Manifesto
@@ -17,8 +17,8 @@ hero:
 
 features:
   - title: Type System
-    details: Eight clear object types for personal and work knowledge, so information lands in buckets with shared meaning.
-  - title: Graph Relationships
+    details: Eight clear types to organize personal and work knowledge, so information lands in the correct buckets.
+  - title: Graph-like Relationships
     details: Generic links like belongs_to, has, and related_to connect concepts without forcing a rigid relational schema.
   - title: Information Lifecycle
     details: Capture to make information available, organize to make it actionable, and archive to keep active views clean.
