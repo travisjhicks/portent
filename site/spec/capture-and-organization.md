@@ -1,8 +1,10 @@
-# Capture, Organize, Archive
+# Information Lifecycle
 
 Every Portent object moves through a simple lifecycle.
 
 The lifecycle is intentionally small. It is not meant to replace project management, task workflow, or a team's operational status model. It answers a more basic knowledge-base question: should this object still be treated as active knowledge?
+
+The information lifecycle is the third pillar of Portent. It answers the question: should this object still be active?
 
 Portent defines three lifecycle states:
 

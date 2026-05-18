@@ -1,10 +1,12 @@
-# Relationships
+# Graph Relationships
 
-Relationships explain what an object is useful for.
+Graph relationships explain what an object is useful for.
 
 Portent defines a small default relationship model. Implementations may add more specific relationship names, but they should preserve the distinction between primary and secondary context.
 
 The default relationship model is deliberately small. Most objects need one answer for primary context and several answers for secondary usefulness. `belongs_to` and `related_to` are the conventions that make this possible without designing a custom relationship vocabulary first.
+
+Graph relationships are the second pillar of Portent. They connect objects without forcing the knowledge base into a rigid relational schema.
 
 ## Primary Relationship: Belongs To
 

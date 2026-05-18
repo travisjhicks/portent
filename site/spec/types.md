@@ -1,12 +1,14 @@
-# Object Types
+# Type System
 
-Portent defines eight core object types.
+The Portent type system defines eight core object types.
 
 The names are intentionally ordinary. A portable knowledge model should not require a private ontology before it becomes useful.
 
 These types are defaults. They are meant to cover the common shape of personal and organizational knowledge with almost no setup. You should be able to look at a piece of information and usually decide whether it is a project, operation, responsibility, task, event, note, topic, or person.
 
 Implementations may add custom types, but Portent-compatible tools should make the default set easy to use first.
+
+The type system is the first pillar of Portent. It answers the question: what is this?
 
 ## Project
 

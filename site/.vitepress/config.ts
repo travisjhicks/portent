@@ -22,7 +22,7 @@ export default defineConfig({
     nav: [
       { text: "Manifesto", link: "/manifesto" },
       { text: "Principles", link: "/principles" },
-      { text: "Spec", link: "/spec/types" },
+      { text: "Spec", link: "/spec/pillars" },
       { text: "Implementation", link: "/implementation/portable-format" },
       { text: "Examples", link: "/examples/overview" },
     ],
@@ -40,9 +40,10 @@ export default defineConfig({
       {
         text: "Specification",
         items: [
-          { text: "Object Types", link: "/spec/types" },
-          { text: "Relationships", link: "/spec/relationships" },
-          { text: "Lifecycle", link: "/spec/capture-and-organization" },
+          { text: "Three Pillars", link: "/spec/pillars" },
+          { text: "Type System", link: "/spec/types" },
+          { text: "Graph Relationships", link: "/spec/relationships" },
+          { text: "Information Lifecycle", link: "/spec/capture-and-organization" },
           { text: "Views", link: "/spec/views" },
         ],
       },

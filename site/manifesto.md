@@ -4,7 +4,7 @@ Portent is an open specification for portable knowledge base systems.
 
 It starts from a simple claim: knowledge is best managed as a graph of typed objects and meaningful relationships, not as a hierarchy of folders.
 
-Portent is intentionally opinionated. It gives you defaults before it gives you configuration: common object types, default relationships, and a simple lifecycle. The point is to make the first useful model obvious enough that you can apply it to a company, team, project, or personal life without designing a private ontology from scratch.
+Portent is intentionally opinionated. It gives you defaults before it gives you configuration: a type system, graph relationships, and a simple information lifecycle. The point is to make the first useful model obvious enough that you can apply it to a company, team, project, or personal life without designing a private ontology from scratch.
 
 Folders force a single location. Knowledge usually has many uses. A meeting can belong to a project, involve several people, mention a topic, create tasks, and become evidence for a long-running responsibility. If the tool asks only "which folder should this go in?", it loses most of that meaning.
 
@@ -15,6 +15,16 @@ Portent changes the organizing question:
 - `related_to`: what will make this useful later?
 
 The goal is not to add structure for its own sake. The goal is to make captured information retrievable at the moment it becomes useful.
+
+## The Three Pillars
+
+Portent has three pillars:
+
+- **Type system**: eight default object types with clear semantics.
+- **Graph relationships**: generic links that connect information without forcing a rigid schema.
+- **Information lifecycle**: captured, organized, and archived states for every object.
+
+The type system answers what something is. Relationships answer what it is useful for. Lifecycle state answers whether it should still appear in active work.
 
 ## The Eight Types
 

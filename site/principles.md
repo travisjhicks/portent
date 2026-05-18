@@ -16,6 +16,12 @@ It provides default types, default relationships, and a default lifecycle so peo
 
 Customization is allowed, but it should come after the defaults fail in a concrete situation.
 
+## Three Pillars
+
+Portent has three pillars: a type system, graph relationships, and an information lifecycle.
+
+The type system answers what something is. Graph relationships explain what it is useful for. Lifecycle state decides whether it needs attention, belongs in active views, or should be retained as archived memory.
+
 ## Types And Relationships Before Folders
 
 Portent asks what a thing is before asking where it should appear.
