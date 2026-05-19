@@ -11,7 +11,7 @@ hero:
       text: Start Here
       link: /start-here
     - theme: alt
-      text: Copy The Template
+      text: Copy Template
       link: https://github.com/refactoringhq/portent-vault-template
 ---
 
