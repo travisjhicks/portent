@@ -252,10 +252,10 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  border: 1px solid var(--vp-c-divider);
+  border: 1px solid rgba(0, 179, 139, 0.22);
   border-radius: 12px;
   padding: 16px;
-  background: var(--vp-c-bg);
+  background: linear-gradient(180deg, rgba(0, 179, 139, 0.09), rgba(0, 179, 139, 0.035));
 }
 
 .VPHome .vp-doc .home-author-image {
