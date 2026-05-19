@@ -113,7 +113,7 @@
 
 .VPHome .vp-doc .home-feature-section + .home-feature-section {
   border-top: 1px solid var(--vp-c-divider);
-  padding-top: 72px;
+  padding-top: 48px;
 }
 
 .VPHome .vp-doc .home-feature-copy {
@@ -251,9 +251,9 @@
   }
 
   .VPHome .vp-doc .home-feature-sections {
-    gap: 112px;
+    gap: 72px;
     margin-top: 96px;
-    padding-top: 88px;
+    padding-top: 64px;
   }
 
   .VPHome .vp-doc .home-feature-section {
@@ -262,7 +262,7 @@
   }
 
   .VPHome .vp-doc .home-feature-section + .home-feature-section {
-    padding-top: 112px;
+    padding-top: 72px;
   }
 
   .VPHome .vp-doc .home-feature-section--reverse {
