@@ -6,9 +6,6 @@ titleTemplate: false
 hero:
   text: An open spec for work & personal knowledge bases
   tagline: "An opinionated set of types, relationships, and lifecycle states."
-  image:
-    src: /article/portent-relationship-shapes.png
-    alt: Portent type groups
   actions:
     - theme: brand
       text: Start Here
@@ -16,18 +13,66 @@ hero:
     - theme: alt
       text: Copy The Template
       link: https://github.com/refactoringhq/portent-vault-template
-
-features:
-  - title: Types
-    details: Eight clear types to organize personal and work knowledge, split between actionable and informational items.
-  - title: Relationships
-    details: Use two default relationships to model most semantic connections, while keeping things tidy.
-  - title: Lifecycle
-    details: Capture data to make it available, organize it to make it actionable, and archive it to keep the workspace clean.
 ---
 
-Portent is a portable model for knowledge bases that favors convention over configuration.
+<div class="home-feature-sections">
+  <section class="home-feature-section">
+    <div class="home-feature-copy">
+      <p class="home-feature-eyebrow">Types</p>
+      <h2>Eight defaults for real-life knowledge</h2>
+      <p>
+        Portent starts with a small, opinionated type system so you can stop
+        inventing categories from scratch.
+      </p>
+      <p>
+        PORT types describe actionable work: Projects, Operations,
+        Responsibilities, and Tasks. ENTP types describe context and memory:
+        Events, Notes, Topics, and People.
+      </p>
+      <a class="home-feature-link" href="/types">Explore types</a>
+    </div>
+    <figure class="home-feature-media">
+      <img src="/home/portent-types.webp" alt="PORT and ENTP type groups in Portent">
+    </figure>
+  </section>
 
-It gives you a default type system, flexible graph relationships, and a simple information lifecycle so you can map real-world information quickly instead of inventing a custom system first.
+  <section class="home-feature-section home-feature-section--reverse">
+    <div class="home-feature-copy">
+      <p class="home-feature-eyebrow">Relationships</p>
+      <h2>Connect things by how they are useful</h2>
+      <p>
+        Portent models knowledge as a graph. Instead of choosing one folder,
+        you connect each item to things that explain why it matters.
+      </p>
+      <p>
+        The default relationships are deliberately simple. Use belongs_to for
+        ownership and related_to for looser context, then add more specific
+        ones only when your system needs them.
+      </p>
+      <a class="home-feature-link" href="/relationships">Explore relationships</a>
+    </div>
+    <figure class="home-feature-media">
+      <img src="/home/portent-relationships.png" alt="Belongs to and related to relationships between Portent types">
+    </figure>
+  </section>
 
-Portent is designed to work for both life and work. The same model can describe health goals, customer meetings, product projects, recurring operations, research topics, and personal notes without splitting your knowledge into incompatible systems.
+  <section class="home-feature-section">
+    <div class="home-feature-copy">
+      <p class="home-feature-eyebrow">Lifecycle</p>
+      <h2>Keep capture separate from organization</h2>
+      <p>
+        Portent treats every piece of information as moving through a simple
+        lifecycle. Capture first so nothing is lost, organize when you can say
+        what it is and what it is useful for, archive when it has served its
+        purpose.
+      </p>
+      <p>
+        This keeps the workspace clean without making capture expensive.
+      </p>
+      <a class="home-feature-link" href="/lifecycle">Explore lifecycle</a>
+    </div>
+    <figure class="home-feature-media">
+      <img src="/home/portent-lifecycle.png" alt="Capture, organize, and archive lifecycle steps">
+    </figure>
+  </section>
+</div>
