@@ -1,18 +1,20 @@
-# Information Lifecycle
+# Lifecycle
 
 Every Portent object moves through a simple lifecycle.
 
 The lifecycle is intentionally small. It is not meant to replace project management, task workflow, or a team's operational status model. It answers a more basic knowledge-base question: should this object still be treated as active knowledge?
 
-The information lifecycle is the third pillar of Portent. It answers the question: should this object still be active?
+The information lifecycle answers the question: should this object still be active?
 
-Portent defines three lifecycle states:
+![The Portent lifecycle moves from capture to organize to archive](/article/portent-lifecycle.png)
 
-1. **Captured**
-2. **Organized**
-3. **Archived**
+*The Portent lifecycle moves from capture to organize to archive.*
 
-## Why The Lifecycle Matters
+Portent defines three lifecycle steps:
+
+1. **Capture**
+2. **Organize**
+3. **Archive**
 
 A knowledge base is not useful because everything is stored. It is useful because the right things keep appearing in the right views.
 
@@ -20,7 +22,7 @@ The lifecycle controls that visibility.
 
 Captured objects need attention. Organized objects are ready to be used. Archived objects remain part of memory, but should stop appearing in active views unless explicitly requested.
 
-## Captured
+## Capture
 
 A captured object has been recorded, but is not yet actionable.
 
@@ -37,7 +39,9 @@ Captured objects may be missing:
 
 The captured state is allowed to be messy. Its job is to protect speed.
 
-## The Organizing Move
+Capture optimistically. Save the link, meeting note, quote, idea, or draft before deciding whether it deserves a permanent place in the graph.
+
+## Organize
 
 An object becomes organized when you can answer two questions:
 
@@ -55,7 +59,7 @@ In practice, organizing usually means:
 
 This is the moment where a raw capture turns into part of the graph.
 
-## Organized
+Organize pessimistically. If a captured item cannot attach to a project, responsibility, operation, or topic, it may not be worth keeping.
 
 An organized object has enough structure to be retrieved later.
 
@@ -63,7 +67,7 @@ It can leave the inbox because its future retrieval path is no longer accidental
 
 Organized does not mean complete, polished, or final. A project can still be active. A note can still be expanded. A topic can still grow. The point is that the object now has enough semantic structure to participate in views, filters, navigation, and graph traversal.
 
-## Archived
+## Archive
 
 An archived object has completed its purpose or is no longer useful in active work.
 
@@ -78,8 +82,6 @@ Examples:
 - a task that has already been handled elsewhere
 
 Archiving is different from deletion. Deletion says the object should not be part of memory. Archiving says the object should no longer compete for attention.
-
-## State Field
 
 Implementations can represent lifecycle state however they prefer. A Markdown implementation might use:
 

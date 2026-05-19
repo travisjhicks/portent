@@ -4,30 +4,30 @@ title: Portent
 titleTemplate: false
 
 hero:
-  name: Portent
   text: An open spec for work & personal knowledge bases
-  tagline: "An opinionated set of types & relationships, and lifecycle."
+  tagline: "An opinionated set of types, relationships, and lifecycle states."
+  image:
+    src: /article/portent-relationship-shapes.png
+    alt: Portent type groups
   actions:
     - theme: brand
-      text: Read The Manifesto
-      link: /manifesto
+      text: Start Here
+      link: /start-here
     - theme: alt
-      text: Explore The Spec
-      link: /spec/pillars
+      text: Copy The Template
+      link: https://github.com/refactoringhq/portent-vault-template
 
 features:
-  - title: Type System
-    details: Eight clear types to organize personal and work knowledge, so information lands in the correct buckets.
-  - title: Graph-like Relationships
-    details: Generic links like belongs_to, has, and related_to connect concepts without forcing a rigid relational schema.
-  - title: Information Lifecycle
-    details: Capture to make information available, organize to make it actionable, and archive to keep active views clean.
-  - title: Views As Filters
-    details: Render project dashboards, topic maps, timelines, and people pages as filters over the same structured graph.
-  - title: Human And Agent Readable
-    details: Simple types, plain text, stable metadata, and file-friendly relationships make the graph understandable to people and AI tools.
+  - title: Types
+    details: Eight clear types to organize personal and work knowledge, split between actionable and informational items.
+  - title: Relationships
+    details: Use two default relationships to model most semantic connections, while keeping things tidy.
+  - title: Lifecycle
+    details: Capture data to make it available, organize it to make it actionable, and archive it to keep the workspace clean.
 ---
 
 Portent is a portable model for knowledge bases that favors convention over configuration.
 
 It gives you a default type system, flexible graph relationships, and a simple information lifecycle so you can map real-world information quickly instead of inventing a custom system first.
+
+Portent is designed to work for both life and work. The same model can describe health goals, customer meetings, product projects, recurring operations, research topics, and personal notes without splitting your knowledge into incompatible systems.

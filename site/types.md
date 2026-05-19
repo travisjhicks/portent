@@ -1,4 +1,4 @@
-# Type System
+# Types
 
 The Portent type system defines eight core object types.
 
@@ -8,7 +8,38 @@ These types are defaults. They are meant to cover the common shape of personal a
 
 Implementations may add custom types, but Portent-compatible tools should make the default set easy to use first.
 
-The type system is the first pillar of Portent. It answers the question: what is this?
+The type system answers the question: what is this?
+
+## PORT vs ENTP Types
+
+The eight types split into two groups:
+
+- **PORT**: actionable types - Project, Operation, Responsibility, Task.
+- **ENTP**: non-actionable records - Event, Note, Topic, Person.
+
+PORT organizes things to do. ENTP organizes inert information: things that happened, things you know, things you care about, and people or agents involved in the graph.
+
+![PORT and ENTP are the two big type groups in Portent](/article/portent-type-groups.png)
+
+*PORT and ENTP are the two big type groups in Portent.*
+
+PORT types describe things to do. They are actionable objects: the work you perform once or repeatedly, in one sitting or across a longer span.
+
+The four actionable types are defined by two questions:
+
+- **Size**: can this be completed in one sitting?
+- **Recurrence**: is this one-and-done or recurring?
+
+That gives four useful categories:
+
+- **Responsibility**: recurring work that cannot be completed in one sitting.
+- **Project**: one-and-done work that cannot be completed in one sitting.
+- **Operation**: recurring work that can be completed in one sitting.
+- **Task**: one-and-done work that can be completed in one sitting.
+
+![You can organize anything you need to do based on size and recurrence](/article/port-work-matrix.png)
+
+*You can organize anything you need to do based on size and recurrence.*
 
 ## Project
 
@@ -24,6 +55,16 @@ Projects usually:
 
 Example: "Launch Portent v0.1 website by the end of the quarter."
 
+Projects are about outputs. They can belong to responsibilities when the project is meant to improve or maintain a long-running outcome.
+
+## Operation
+
+An **Operation** is recurring work that can usually be completed in one sitting.
+
+Operations usually belong to a responsibility, but can also support a project.
+
+Example: "Weekly training review" belongs to "Maintain personal health."
+
 ## Responsibility
 
 A **Responsibility** is a long-running area of accountability.
@@ -37,13 +78,7 @@ Responsibilities usually:
 
 Example: "Maintain personal health," measured by resting heart rate, VO2 max, weekly training volume, and sleep consistency.
 
-## Operation
-
-An **Operation** is recurring work that can usually be completed in one sitting.
-
-Operations usually belong to a responsibility, but can also support a project.
-
-Example: "Weekly training review" belongs to "Maintain personal health."
+Responsibilities are about standards and outcomes. They usually do not have a fixed definition of done.
 
 ## Task
 
@@ -52,6 +87,8 @@ A **Task** is one-off work that can usually be completed in one sitting.
 Tasks are part of the Portent worldview, but they do not need to live inside the knowledge base. A team may keep tasks in Todoist, Linear, GitHub Issues, or another dedicated system while still relating them to Portent projects and responsibilities.
 
 Example: "Book a padel court for Tuesday."
+
+ENTP types describe inert knowledge. They are not work items by themselves: they record what happened, what is known, what is interesting, and who is involved.
 
 ## Event
 
