@@ -111,11 +111,11 @@ hero:
       </svg>
       Made with care
     </span>
-    <h2>Built by <a href="https://x.com/lucaronin">Luca</a>, for Luca</h2>
+    <h2>Built by <a class="home-luca-link" href="https://x.com/lucaronin">Luca</a>, for Luca</h2>
     <p>
-      Portent ideas are extracted from how I use Tolaria, and both are the
-      product of the learnings of 15 years of engineering + content creation
-      work.
+      Portent ideas are extracted from how I use <a href="https://tolaria.md">Tolaria</a>,
+      and both are the product of the learnings of 15 years of engineering +
+      content creation work.
     </p>
   </div>
 
@@ -132,9 +132,8 @@ hero:
         Portent is born from 5 years of full-time writing at Refactoring, 10
         as CTO of a high-growth startup, and my PhD research on database
         models. Along the way, I amassed 10,000 notes on various tools'
-        workspaces, learned a lot about knowledge mgmt, productivity, and,
-        working well with AI. None of the existing frameworks matched how I did
-        things, so I built one myself.
+        workspaces, learned a lot about knowledge mgmt, productivity, and
+        working well with AI.
       </p>
       <div class="home-author-stats">
         <div>

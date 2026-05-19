@@ -225,9 +225,19 @@
   color: var(--vp-c-text-1);
 }
 
-.VPHome .vp-doc .home-section-heading h2 a {
+.VPHome .vp-doc .home-section-heading h2 .home-luca-link {
   color: var(--vp-c-brand-1);
-  text-decoration: none;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+}
+
+.VPHome .vp-doc .home-section-heading p a {
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .VPHome .vp-doc .home-section-heading p {
